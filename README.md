@@ -1,9 +1,7 @@
 # LDAViz
 1.Install R. 
 
-2.Install the following packages: readr, tm, SnowballC, Matrix, lda, LDAvis, servr (You can 
-Run R Studio and Install a package by running the command 
-install.packages(“<package_name>”) 
+2.Install the following packages: readr, tm, SnowballC, Matrix, lda, LDAvis, servr (You can Run R Studio and Install a package by running the command: install.packages(“<package_name>”)
 
 3. Dataset has forum posts related to 20 different news groups: 
 alt.atheism, 
@@ -28,7 +26,6 @@ talk.politics.misc,
 talk.religion.misc
 
 4. Change your working directory by running setwd(“<directory_path>”). Make sure this directory contains the dataset and the script. 
-
 5. Run the script LDAvis.R. 
 
 This will generate following files: d3.v3.js, lda.css, lda.json, ldavis.js, index.html In the same working directory run the following command python -m SimpleHTTPServer
